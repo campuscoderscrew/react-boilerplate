@@ -2,39 +2,11 @@ import React from "react"
 
 export default function Component2 () {
     return (
-        <div
-          className="contentBox"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "20px",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "20px",
-            flexWrap: "wrap",
-          }}
-        >
-          <p
-            className="textBox"
-            style={{
-              backgroundColor: "darkgreen",
-              color: "white",
-              height: "150px",
-              width: "300px"
-            }}
-          >
-            lorem
-          </p>
-          <img
-            className="image"
-            src="https://placehold.co/600x400"
-            alt="image2"
-            style={{
-              height: "150px",
-              objectFit: "cover",
-              width: "300px"
-            }}
-          />
-        </div>
+      <div className="flex flex-row flex-wrap items-center justify-center gap-5 p-5">
+        <p className="bg-teal-900 text-white h-[150px] w-[300px] p-3 rounded-xl">
+          lorem
+        </p>
+        <img className="h-[150px] w-[300px] object-cover rounded-xl" src="https://placehold.co/400x400" alt="image2"/>
+      </div>
     );
 }
