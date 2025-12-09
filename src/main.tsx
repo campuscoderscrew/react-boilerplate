@@ -11,7 +11,6 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/igem-copy" element={<Home />} />
     </Routes>
   );
 }
